@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sceneeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneeditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneeditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_sceneeditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SplitWindowLine.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SplitWindowLine.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CenterWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CenterWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OpenglWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OpenglWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\depends\include\glew\glew.c">
+      <Filter>glew</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitWindowLine.cpp">
+      <Filter>ui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterWindow.cpp">
+      <Filter>ui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GLContext.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenglWidget.cpp">
+      <Filter>ui\Opengl\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorOpenglWidget.cpp">
+      <Filter>ui\Opengl\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewOpenglWidget.cpp">
+      <Filter>ui\Opengl\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GridMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderThread.cpp">
+      <Filter>ui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleLightShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleLightMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalVisibleShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalVisibleMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMapShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMapMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDFShader.cpp">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvolutionIrradianceShader.cpp">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClCompile>
+    <ClCompile Include="PbrShader.cpp">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefilterShader.cpp">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangular2CubemapShader.cpp">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadMesh.cpp">
+      <Filter>engine\Mesh\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PbrPrepare.cpp">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClCompile>
+    <ClCompile Include="PbrMaterial.cpp">
+      <Filter>engine\Material\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShader.cpp">
+      <Filter>engine\Shader\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeTypeFont.cpp">
+      <Filter>engine\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GridNoiseMoveShader.cpp">
+      <Filter>engine\Shader\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaShader.cpp">
+      <Filter>engine\Shader\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialBlurShader.cpp">
+      <Filter>engine\Shader\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatePixelShader.cpp">
+      <Filter>engine\Shader\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RowboxRotateShader.cpp">
+      <Filter>engine\Shader\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="YoumoShader.cpp">
+      <Filter>engine\Shader\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GridNoiseMoveMaterial.cpp">
+      <Filter>engine\Material\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaMaterial.cpp">
+      <Filter>engine\Material\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialBlurMaterial.cpp">
+      <Filter>engine\Material\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatePixelMaterial.cpp">
+      <Filter>engine\Material\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RowboxRotateMaterial.cpp">
+      <Filter>engine\Material\pixel\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="YoumoMaterial.cpp">
+      <Filter>engine\Material\pixel\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{259f961e-8581-4697-9e59-c6d2a7fd893d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{15da4e23-8fbd-4a52-9185-443def96ce65}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="glew">
+      <UniqueIdentifier>{7e1e4c18-ca83-4124-9d26-217205114681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{7116352c-4e57-4a1c-8b9f-5fae41a8686f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{ff9263c2-3b17-4d5b-9c72-f6952b8306fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{8cb2524a-4508-46e3-a9bf-24b5e6f7cf17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\header">
+      <UniqueIdentifier>{bd52a094-675f-4a8c-b55b-444c9714da4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\cpp">
+      <UniqueIdentifier>{cfd59f32-74e6-4dc2-abcd-16d0afef099b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\header">
+      <UniqueIdentifier>{3cc530eb-db50-4e9d-af13-1ee232cc9110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\cpp">
+      <UniqueIdentifier>{bad8fd64-02e6-464c-9c05-0470127a5c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader">
+      <UniqueIdentifier>{46b5ef4d-2266-4049-be48-9aa1cca29551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader\cpp">
+      <UniqueIdentifier>{1487aebe-e0e7-4be7-9a0a-6f2f0dffd85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader\header">
+      <UniqueIdentifier>{64f1e46b-6cfe-4d46-bd7d-a6593820f907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Mesh">
+      <UniqueIdentifier>{8aa8d205-dde7-4654-9eca-9017d2129a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Mesh\cpp">
+      <UniqueIdentifier>{18caf27e-9859-4bcf-b0d4-0dffa1b700af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Mesh\header">
+      <UniqueIdentifier>{decb7609-df81-4425-84f6-2f7b279508ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Opengl">
+      <UniqueIdentifier>{2e026118-d1e0-4e59-9468-77eadf3b139c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Opengl\cpp">
+      <UniqueIdentifier>{f6a8c41e-9623-4632-86e9-2b5e0521f435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Opengl\header">
+      <UniqueIdentifier>{0e56453a-2b2a-4b6b-929d-b6e800c406dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Material">
+      <UniqueIdentifier>{6536bcec-9774-41d6-8f36-05e20881849f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Material\cpp">
+      <UniqueIdentifier>{a2d5b81c-f6f2-4063-b930-21ea4035315b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Material\header">
+      <UniqueIdentifier>{9d3c430d-7b56-4303-bbc1-972959f34cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader\pbr">
+      <UniqueIdentifier>{a8ae6281-6596-42ca-9306-82faf662ce76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader\pixel">
+      <UniqueIdentifier>{c9494af8-2d33-49d2-882d-1101fea46bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader\pixel\cpp">
+      <UniqueIdentifier>{7f192ecb-2ce6-4243-ba17-2749bf9ed71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Shader\pixel\header">
+      <UniqueIdentifier>{5fcb6210-9d75-4cef-a776-aa0cfb494f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Material\pixel">
+      <UniqueIdentifier>{eaf1ac17-c562-4ed7-97b0-07aeff486cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Material\pixel\header">
+      <UniqueIdentifier>{7128727e-1082-45e5-afc7-b11062886aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\Material\pixel\cpp">
+      <UniqueIdentifier>{10e8f164-4f56-4e0a-9fe1-348d0c93cb89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sceneeditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneeditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneeditor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SplitWindowLine.h">
+      <Filter>ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CenterWindow.h">
+      <Filter>ui\header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenglWidget.h">
+      <Filter>ui\Opengl\header</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_sceneeditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\depends\include\mathf\CELLMath.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="GLContext.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorOpenglWidget.h">
+      <Filter>ui\Opengl\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewOpenglWidget.h">
+      <Filter>ui\Opengl\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GridMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderThread.h">
+      <Filter>ui\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildrenHeader.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleLightShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleLightMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalVisibleShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalVisibleMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDFShader.h">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvolutionIrradianceShader.h">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClInclude>
+    <ClInclude Include="PbrShader.h">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefilterShader.h">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangular2CubemapShader.h">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadMesh.h">
+      <Filter>engine\Mesh\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PbrPrepare.h">
+      <Filter>engine\Shader\pbr</Filter>
+    </ClInclude>
+    <ClInclude Include="PbrMaterial.h">
+      <Filter>engine\Material\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextShader.h">
+      <Filter>engine\Shader\header</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeTypeFont.h">
+      <Filter>engine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridNoiseMoveShader.h">
+      <Filter>engine\Shader\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RadialBlurShader.h">
+      <Filter>engine\Shader\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatePixelShader.h">
+      <Filter>engine\Shader\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RowboxRotateShader.h">
+      <Filter>engine\Shader\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="YoumoShader.h">
+      <Filter>engine\Shader\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaShader.h">
+      <Filter>engine\Shader\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GridNoiseMoveMaterial.h">
+      <Filter>engine\Material\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaMaterial.h">
+      <Filter>engine\Material\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RadialBlurMaterial.h">
+      <Filter>engine\Material\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatePixelMaterial.h">
+      <Filter>engine\Material\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RowboxRotateMaterial.h">
+      <Filter>engine\Material\pixel\header</Filter>
+    </ClInclude>
+    <ClInclude Include="YoumoMaterial.h">
+      <Filter>engine\Material\pixel\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scene Editor lyd.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Administrator\Desktop\logo.ico" />
+  </ItemGroup>
+</Project>
