@@ -10,3 +10,5 @@
 # 第三方工具库：glew stb_image freetype glm
 # shader 支持 PC 和 移动 端
 ![image](https://github.com/linda012518/Opengl-Render-Engine/blob/master/1.png)
+![image](https://github.com/linda012518/Opengl-Render-Engine/blob/master/2.png)
+![image](https://github.com/linda012518/Opengl-Render-Engine/blob/master/3.png)
